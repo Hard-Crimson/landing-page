@@ -2,6 +2,7 @@
 body{
     display: flex;
     flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
     
 }
@@ -46,10 +47,44 @@ a{
 .hero{
     display: flex;
     flex: 1;
+    justify-content: space-around;
+    padding: 64px;
+    align-content: 
 }
+
+.hero-left{
+    margin: 24px;
+    display: flex;
+    max-width: 400px;
+    
+    flex-wrap: wrap;
+}
+
+.hero-main{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+    margin-bottom: 16px;
+
+}
+
+.hero-second{
+    margin-bottom: 16px;
+}
+
+.hero-right{
+    margin: 24px;
+}
+
+.hero-right img{
+    width: 400px;
+    height: auto;
+}
+
 .information{
     display: flex;
     flex: 1;
+
 }
 .quote{
     display: flex;
@@ -64,3 +99,10 @@ a{
     flex: 1;
 }
 
+button{
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-style: solid;
+    color: white;
+    font-weight: bold;
+}
