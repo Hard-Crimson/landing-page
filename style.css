@@ -84,8 +84,33 @@ a{
 .information{
     display: flex;
     flex: 1;
+    flex-direction: column;
+    
 
 }
+
+.title{
+    font-size: 36px;
+    display: flex;
+    font-weight: bolder;
+    justify-content: center;
+    padding: 24px;
+
+
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about img{
+    max-height: 200px;
+    width: auto;
+    
+}
+
 .quote{
     display: flex;
     flex: 1;
