@@ -1,0 +1,14 @@
+/* style.css */
+body{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header{}
+.hero{}
+.information{}
+.quote{}
+.action{}
+.footer{}
+
