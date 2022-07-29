@@ -95,39 +95,106 @@ a{
     font-weight: bolder;
     justify-content: center;
     padding: 24px;
-
-
 }
 
 .about{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
+    align-content: flex-end;
+    padding: 24px;
+    
+}
+
+.chapel,
+.michael,
+.ou-texas{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: auto; 
 }
 
 .about img{
-    max-height: 200px;
-    width: auto;
-    
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #3882F6;
 }
+
+.descript{
+    margin-top: 16px;
+}
+
 
 .quote{
     display: flex;
     flex: 1;
+    background-color: lightgray;
+    flex-direction: column;    
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+
+.quote .text{
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote .quoted{
+    display: flex;
+    font-size: 24px;
+    font-weight: bolder;
+    justify-content: right;
+}
+
+
 .action{
     display: flex;
     flex: 1;
+    margin: 64px;
+    background-color: #3882F6;
+    padding: 32px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-content: center;
 }
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.need-more{
+    font-size: 24px;
+    color: white;
+    font-weight: bolder;
+}
+
+.explanation{
+    font-size: 18px;
+    color: white;
+}
+
 .footer{
     display: flex;
-    flex: 1;
+    justify-content: center;
+}
+
+.footer-text{
+    padding: 36px;
 }
 
 button{
+    display: flex;
     background-color: #3882f6;
     border-radius: 5px;
     border-style: solid;
     color: white;
-    font-weight: bold;
+    border-color: white;
+    
+
 }
+
